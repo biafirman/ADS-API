@@ -1,0 +1,15 @@
+//Ana Beatriz Firman Batista
+
+package AULA2;
+
+public class tabuada {
+
+    public static void main(String[] args) {
+        int number = 5;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.printf("%d x %d = %d%n", number, i, number * i);
+        }
+    }
+
+}
